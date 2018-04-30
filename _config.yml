@@ -79,3 +79,8 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
+
+server:
+  port: 80
+  compress: true
+  header: true
